@@ -1,38 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta>charset="UTF-8">
-    <meta name="viewport" content="width=device-width", initial-scale 1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale 1.0">
     <title>Anne Varvel's Career Goals</title>
     <link rel="stylesheet" href="style.css">
-
-    <header>
-        <h1>Anne Varvel's Career Goals</h1>
-        <a href="test.html">test</a>
-    </header>
 </head>
-<hr>
-      <video src="https://static-resources.zybooks.com/band.jpg" alt="Intro">
 
-      <!-- Section links -->
-      <nav>
+<body>
+<header>
+    <h1>Anne Varvel's Career Goals</h1>
+    <audio controls>
+        <source src="AnneV-audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+          <nav>
          <a href="resume.html">Resume</a> &nbsp;
          <a href="cover-letter.html">Cover letter</a> &nbsp;
-      </nav>
-<!--goals-->
-<!--table 4 col 3 row, with caption-->
-<!--line breaks, strong, em-->
-<!--imageaudiovideo-->
-<!--inline java for div/date and for an appropriate message to console-->
-</body>
+        <a href="#contactinfo">Contact Me</a>
+        </nav>
+ 
+</header>
 
-<footer>
-    <img src="https://static-resources.zybooks.com/singer.jpg" alt="Me">  
-<!--form  attribute to  https://wp.zybooks.com/form-viewer.php with all required form fields and submit button-->
-<form>
-    <caption
+<hr>
+<main>
+      <video controls width="240">
+        <source src="AnneV-video.mp4" type="video/mp4">
+      </video>
 
+
+
+      <p>"Individual commitment to a group effort—that is what makes a team work." — <cite>Vince Lombardi</cite></p>
+
+      <p>I believe that by working hard and helping the team I'm working with, I'll make contributions for the betterment of the company while also growing in my career. My career goals include initially growing stronger in coding skills through hands-on experience. I hope to gain experience through internships and entry-level positions. At the same time, I plan to continue pursuing my Master's in AI to reach my ultimate career goal.</p>
+      <p>Ultimately, I want to move to a position in my career where I'm building AI projects for both larger and smaller businesses. By doing so, I want to be a part of the future of tech. </p>
+
+<strong>I'm looking forward to speaking with you about this opportunity. Please contact me:</strong>
+
+<form id="surveyForm" action="https://wp.zybooks.com/form-viewer.php" method="post">
+    <div class="form-row">
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" name="firstname">
+    </div>
+
+    <div class="form-row">
+    <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname" name="lastname">
+    </div>
+
+    <div class="form-row">
+    <label for="companyname">Company Name:</label>
+    <input type="text" id="companyname" name="companyname">
+    </div>
+
+    <div class="form-row">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    </div>
+
+    <div class="form-row">
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone">
+    </div>
+
+    <div class="form-row">
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea>
+    </div>
+
+    <div class="form-row">
+    <p>Best contact time:</p>
+    <input type="radio" id="am" name="contacttime" value="a.m.">
+    <label for="am">A.M.</label>
+
+    <input type="radio" id="pm" name="contacttime" value="p.m.">
+    <label for="pm">P.M.</label>
+    
+    <input type="radio" id="anytime" name="contacttime" value="anytime">
+    <label for="anytime">Anytime</label>
+    </div>
+
+<div class="form-row">
+    <label for="preferred">Preferred contact method:</label>
+    <select id="preferred" name="preferred">
+        <option value="phone">Phone</option>
+        <option value="email">Email</option>
+        <option value="text">Text</option>
+    </select>
+</div>
+    <br>
+    <button type="submit">Submit</button>
 </form>
-<button type=""submit">Submit</button>
+</main>
+<br>
+<hr>
+<br>
+<footer id="contactinfo">
+    <img src="Anne-pic.jpg" alt="Anne pic" class="footer-image">
+    <section> 
+        Anne Varvel<br>
+        11950 Lake Parker<br>
+        San Antonio, TX &nbsp;78252<br>
+        210-480-4282<br>
+        <a href="mailto:kvarve1@wgu.edu">kvarve1@wgu.edu</a>
+    </section>
+
 </footer>
+</body>
 </html>

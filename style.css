@@ -1,46 +1,121 @@
-</style>
-    h1 {color=darkgreen; 
-        text-size: 20px;
-    }
+:root {
+   --header-color: darkblue;
+   --font-color: black;
+   --bg-color: #c5dcf4;
+}
 
-    h2 {color:darkgreen;
-    font-style: italic;
+header {
+   text-align:center;
+   color: black;
+}
+
+table {
+   border: 2px solid black;
+   border-collapse: collapse;
+}
+
+th, td {
+   border: 1px solid black;
+   padding: 7px;
+}
+
+caption { 
+   font-size: larger;
+   font-weight: bold;
+}
+
+.footer-image {
+   width: 80px;
+   height: auto;
+   display: block;
+   margin: 0 auto;
+}
+
+footer {
+   text-align: center;
+}
+
+.footer-address {
+   text-align: left;
+   font-style: normal;
+}
+
+section h1 {
+   font-size: 20px;
+   color:gray;
+   text-decoration: underline;
+   text-align: center;
+}
+
+section h2 {
+   font-size: 18px;
+   color:gray;
+   text-decoration: underline;
+   text-align: center;
+}
+
+section h3 {
+   font-size: 18px;
+   color:gray;
+   text-decoration: underline;
+   text-align: center;
+}
+
+section h4 {
+   font-size: 16px;
+   color:gray;
+   text-decoration: underline;
+   text-align: center;
+}
+
+section h5 {
+   font-size: 16px;
+   color:gray;
+   text-decoration: underline;
+   text-align: center;
+}
+   
+
+p {
+  font-family:Arial;
+}
+
+mark {
+   background-color:rgba(85, 85, 247, 0.693);
    }
 
-    p {
-        font-family:Arial, Helvetica, sans-serif;
-    }
+button[type="submit"] {
+   display: block;
+   background-color: darkblue;
+   color: white;
+   padding: 15px;
+   border-style: solid;
+   border-radius: 8px;
+   border-color: darkblue;
+   cursor: pointer;
+}
 
-    button[type="submit"] {
-        background-color: lightgreen;
-        color: white;
-        padding: 15px;
-        border-style: solid, darkgreen;
-    }
+ul {
+   font-style: italic;
+}
 
-    table {
-        th {color:darkgreen;
-        background-color: rgb(153, 180, 161);
-        font-style: bold;
+th {
+   color:black;
+   background-color:gray;
+   font-size: 16px;
+   text-align: left;
+   }
 
-    }
-
-    nav {
-        text-align: center;
-        margin-top: 10px 8px;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: larger;
-    }
-
-
-
-HERE 
-:root {
-   --header-color: white;
-   --font-color: #aed3e1;
-   --bg-color: #070040;
+nav {
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 8px;
+   margin-right: 8px;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: larger;
 }
 
 body {
@@ -68,8 +143,46 @@ a:hover {
    color: yellow; 
 }  
 
-a:active {
-   color: purple;
-}  
+.role 
+   {text-decoration: underline;
+}
 
-</style>
+form label {
+   display: inline-block;
+   width: 125px;
+   margin-bottom: 8px;
+}
+
+video {
+   display: block;
+   margin: 0 auto;
+}
+
+form {
+   max-width: 400px;
+   margin: 0 auto;
+}
+.form-row {
+   margin-bottom: 10px;
+}
+
+.form-row label {
+   display: inline-block;
+   width: 150px;
+   font-weight: bold;
+}
+
+.form-row input, .form-row textarea {
+   width: 60%;
+   padding: 10px;
+   border: 2px solid black;
+   border-radius: 5px;
+}
+
+textarea {
+   height: 100px;
+}
+
+.options label {
+   margin-right: 20px;
+}
